@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Registro.Digitarcodigo"
+             xmlns:material="clr-namespace:Plugin.MaterialDesignControls;assembly=Plugin.MaterialDesignControls"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
+ <StackLayout Padding="25,60"
+              BackgroundColor="White"
+              Spacing="20">
+  <Label>
+   <Label.FormattedText>
+    <FormattedString>
+     <Span Text="Ingresa el código de 4 digitos que se te envió al "
+           TextColor="#1d1d1d"
+           FontAttributes="Italic"
+           FontSize="20" />
+     <Span TextColor="#7250FF"
+           FontSize="25"
+           Text="940308023"
+           FontAttributes="Bold" />
+    </FormattedString>
+   </Label.FormattedText>
+  </Label>
+ 
+  <Grid ColumnDefinitions="*,*">
+   <material:MaterialCodeEntry Length="4"
+                               Keyboard="Numeric"
+                               FontSize="20"
+                               BackgroundColor="#F6F6F6"
+                               BorderColor="#F6F6F6"
+                               Text="{Binding Txtcodigo}" 
+                               />
+  </Grid>
+  <Frame CornerRadius="30"
+         HorizontalOptions="Start"
+         Padding="20,8"
+         HasShadow="False"
+         BackgroundColor="#F6F6F6">
+   <Label Text="No recibi el código 0:30" />
+  </Frame>
+  <StackLayout Orientation="Horizontal"
+               VerticalOptions="EndAndExpand">
+   <Frame BackgroundColor="#EEEEEE"
+          HasShadow="False"
+          CornerRadius="35"
+          VerticalOptions="Center">
+    <Frame.GestureRecognizers>
+     <TapGestureRecognizer Command="{Binding Volvercommand}"/>
+    </Frame.GestureRecognizers>
+    <Image Source="https://i.ibb.co/k5gTQFK/flecha-izquierda-2.png"
+           HeightRequest="30" />
+   </Frame>
+   <sombras:Shadows  HorizontalOptions="EndAndExpand"
+                     Margin="0,20"
+                     CornerRadius="30"
+                     Shades="{sombras:SingleShade Offset='0,10' ,Opacity=0.7, Color=#705AFE,BlurRadius=18}">
+      <Frame BackgroundColor="#705AFE"
+          CornerRadius="30"
+          Padding="15"
+           HasShadow="False">
+    <StackLayout Orientation="Horizontal">
+     <Label Text="Siguiente"
+            BackgroundColor="Transparent"
+            TextColor="White"
+            TextTransform="None"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            FontSize="25"/>
+     <Image Source="https://i.ibb.co/wzXJYGs/flechas-a-la-derecha.png"
+            HeightRequest="30"
+            HorizontalOptions="End"
+            Margin="0,0,10,0" />
+     <StackLayout.GestureRecognizers>
+      <TapGestureRecognizer Command="{Binding Validarcommand}" />
+     </StackLayout.GestureRecognizers>
+    </StackLayout>
+   </Frame>
+   </sombras:Shadows>
+  
+  </StackLayout>
+ </StackLayout>
+</ContentPage>

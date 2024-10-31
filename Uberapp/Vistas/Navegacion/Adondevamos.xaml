@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Navegacion.Adondevamos"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             xmlns:reutilizables="clr-namespace:Uberapp.Vistas.Reutilizables"
+             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:navegacion="clr-namespace:Uberapp.Vistas.Navegacion"
+             xmlns:vistas="clr-namespace:Uberapp.Vistas.Navegacion.Navegar">
+ <ContentPage.Behaviors>
+  <toolkit:EventToCommandBehavior EventName="Appearing"
+                                  Command="{Binding ActualizarUsercommand}" />
+ </ContentPage.Behaviors>
+ <Grid BackgroundColor="White">
+  <navegacion:Solicitarauto x:Name="solicitarauto"/>
+  <navegacion:Ofertar IsVisible="{Binding VisibleOfertar}" />
+  <reutilizables:Listadirecciones IsVisible="{Binding VisibleListdirec}" />
+  <navegacion:EsperarOfertasView IsVisible="{Binding VisibleEsperarOfertas}" />
+  <vistas:Navegar IsVisible="{Binding VisibleNavegar}" />
+  <vistas:Calificar IsVisible="{Binding VisibleCalificar}"/>
+  <reutilizables:ConfigView IsVisible="{Binding VisibleConfig}"/>
+ </Grid>
+</ContentPage>

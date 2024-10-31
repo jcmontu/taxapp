@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Navegacion.EsperarOfertasView"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             xmlns:navegacion="clr-namespace:Uberapp.Vistas.Navegacion">
+ <Grid BackgroundColor="White">
+  <StackLayout>
+  
+   <Grid VerticalOptions="FillAndExpand">
+    <maps:Map />
+    <Grid >
+     <BoxView BackgroundColor="#FFDE54"
+              Opacity="0.65"
+                />
+     <Button Text="Cancelar"
+             TextTransform="None"
+             HorizontalOptions="End"
+             CornerRadius="10"
+             BackgroundColor="White"
+             VerticalOptions="Start"
+             Margin="20,40"
+             FontSize="20"
+             FontAttributes="Bold"
+             Command="{Binding EliminarPedidocommand}"/>
+     <Label Text="Ofreciendo su tarifa a los conductores, espere"
+            FontSize="30"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Start"
+            TextColor="Black"
+            Margin="20,120"
+           />
+    </Grid>
+    <Grid VerticalOptions="End">
+     <BoxView CornerRadius="20,20,0,0"
+              BackgroundColor="White" />
+     <StackLayout Margin="50">
+      <StackLayout Orientation="Horizontal">
+       <Image Source="https://i.ibb.co/hLwhJWD/encendiendo.png"
+              HeightRequest="30"
+              VerticalOptions="Center" />
+       <Label Text="Aumento en la demanda de viajes Ofrece un precio más alto o intenta de nuevo más tarde."
+              HorizontalOptions="Center"
+              HorizontalTextAlignment="Center"
+              FontSize="14"
+              TextColor="Black" />
+      </StackLayout>
+      <StackLayout>
+       <Label Text="Precio actual"
+              FontSize="18"
+              HorizontalOptions="Center"
+              Margin="20" />
+       <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+        <Label Text="{Binding SimboloMoneda}"
+              
+               TextColor="Black"
+               FontSize="30"
+               VerticalTextAlignment="Center"
+               FontAttributes="Bold" />
+        <Label Text="{Binding Txttarifa}"
+               
+               TextColor="Black"
+               FontSize="30"
+               VerticalTextAlignment="Center"
+              FontAttributes="Bold" />
+       </StackLayout>
+      
+     
+      </StackLayout>
+      <sombras:Shadows CornerRadius="20"
+                       Shades="{sombras:SingleShade Offset='0,5' ,Opacity=0.6,Color=#AC52ED,BlurRadius=20}">
+       <Button Text="Aumentar precio"
+               TextTransform="None"
+               CornerRadius="20"
+               TextColor="White"
+               FontAttributes="Bold"
+               FontSize="30"
+               Margin="0,20,0,0"
+               Command="{Binding Vereditarpreciocommand}">
+        <Button.Background>
+         <LinearGradientBrush>
+          <GradientStop Color="#6247C9"
+                        Offset="0.5" />
+          <GradientStop Color="#AC52ED"
+                        Offset="1.0" />
+         </LinearGradientBrush>
+        </Button.Background>
+       </Button>
+      </sombras:Shadows>
+     </StackLayout>
+    </Grid>
+   </Grid>
+  </StackLayout>
+  <navegacion:Editarprecio IsVisible="{Binding VisibleEditarprecio}"/>
+  <navegacion:Listchoferes IsVisible="{Binding VisibleOfertas}" />
+ </Grid>
+</ContentView>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="Uberapp.Vistas.Navegacion.Solicitarauto"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps">
+ <Grid RowDefinitions="*,auto"
+       Margin="0,30,0,0">
+  <Frame Padding="0"
+         Margin="20,10"
+         HasShadow="False"
+         CornerRadius="20">
+   <maps:Map x:Name="Mapa" />
+  </Frame>
+  <Frame HasShadow="False"
+         CornerRadius="60"
+         Margin="30,20"
+         VerticalOptions="Start"
+         HorizontalOptions="Start"
+         >
+   <Frame.GestureRecognizers>
+    <TapGestureRecognizer Command="{Binding Verconfigcommand}"/>
+   </Frame.GestureRecognizers>
+   <Image Source="https://i.ibb.co/4J2r2gY/menu.png"
+          HeightRequest="25"/>
+  </Frame>
+  <Image Source="fijar.png"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         HeightRequest="40" 
+         TranslationY="-30"/>
+ 
+   <StackLayout Padding="20,5"
+                BackgroundColor="White"
+                Grid.Row="1">
+    <StackLayout Orientation="Horizontal">
+     <StackLayout HorizontalOptions="FillAndExpand">
+      <StackLayout Orientation="Horizontal">
+       <Image Source="https://i.ibb.co/7S71nqg/hula-hoop-2.png"
+              HeightRequest="22" />
+       <Entry FontSize="Subtitle"
+              TextColor="Black"
+              x:Name="txtorigen"
+              IsEnabled="False"
+              Text="{Binding Txtorigen,Mode=TwoWay}"
+              Placeholder="Origen"
+              HorizontalOptions="FillAndExpand" />
+       <StackLayout.GestureRecognizers>
+        <TapGestureRecognizer Command="{Binding SelectOrigencommand}" />
+       </StackLayout.GestureRecognizers>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+       <Image Source="https://i.ibb.co/7r2g64s/hula-hoop.png"
+              HeightRequest="22" />
+       <Entry Text="{Binding Txtdestino,Mode=TwoWay}"
+              FontSize="Subtitle"
+              TextColor="Black"
+              Placeholder="¿A dónde vamos?"
+              PlaceholderColor="#A3A3AB"
+              x:Name="txtdestino"
+              IsEnabled="false"
+              HorizontalOptions="FillAndExpand">
+        <Entry.Behaviors>
+         <toolkit:EventToCommandBehavior EventName="TextChanged"
+                                         Command="{Binding Buscarcommand}"
+                                         CommandParameter="{Binding Text,Source={x:Reference txtdestino}}" />
+        </Entry.Behaviors>
+       </Entry>
+       <StackLayout.GestureRecognizers>
+        <TapGestureRecognizer Command="{Binding SelectDestinocommand}" />
+       </StackLayout.GestureRecognizers>
+      </StackLayout>
+     </StackLayout>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+     <Image Source="https://i.ibb.co/52rnDKC/aro-de-fuego.png"
+            HeightRequest="22" />
+     <Entry Placeholder="Ofrezca su tarifa"
+            HorizontalOptions="FillAndExpand"
+            IsEnabled="False"
+            Text="{Binding Txttarifa}"
+            FontSize="Title"
+            FontAttributes="Bold" />
+     <StackLayout.GestureRecognizers>
+      <TapGestureRecognizer Command="{Binding Verofertarcommand}" />
+     </StackLayout.GestureRecognizers>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+     <Image Source="https://i.ibb.co/NW7XPsP/comentario-1.png"
+            HeightRequest="22"/>
+     <Entry Placeholder="Comentarios y deseos"
+            FontSize="Subtitle"
+            HorizontalOptions="FillAndExpand"
+           Text="{Binding Txtcomentarios}"/>
+    </StackLayout>
+    <Button Text="Solicitar un auto"
+            CornerRadius="10"
+            BackgroundColor="#6247C9"
+            TextColor="White"
+            FontAttributes="Bold"
+            TextTransform="None"
+            Margin="0,0,0,20"
+            FontSize="Title"
+            Command="{Binding Insertarpedidocommand}" 
+            HeightRequest="65"/>
+   </StackLayout>
+  
+ </Grid>
+</ContentView>

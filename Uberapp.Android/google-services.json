@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "546550332418",
+    "project_id": "taxappgt",
+    "storage_bucket": "taxappgt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546550332418:android:941c38a5c59a0c6356fb1b",
+        "android_client_info": {
+          "package_name": "com.thundergate.taxappgt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546550332418-009prurgg3ta1l45p1is582vtqj3dlfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thundergate.taxappgt",
+            "certificate_hash": "bebc8bc4dbb8daf968a8256cc3d8fdecdf32f8e3"
+          }
+        },
+        {
+          "client_id": "546550332418-v8jbh5d6ise9qt6qpqkdbc7liin404ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfNVHH1s_CeV4wok-QXRidWSDh8KaWq08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546550332418-v8jbh5d6ise9qt6qpqkdbc7liin404ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

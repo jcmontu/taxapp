@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Reutilizables.ConfigView">
+ <Grid>
+  <BoxView BackgroundColor="Black"
+           Opacity="0.6"/>
+  <Grid ColumnDefinitions="3.5*,*">
+   <StackLayout BackgroundColor="White"
+                Padding="0,35,0,0"
+                >
+    <StackLayout Orientation="Horizontal"
+                 Margin="15">
+     <StackLayout.GestureRecognizers>
+      <TapGestureRecognizer Command="{Binding Configperfilcommand}"/>
+     </StackLayout.GestureRecognizers>
+     <Frame Padding="0" 
+            WidthRequest="50"
+            HeightRequest="50"
+            CornerRadius="70">
+      <Image Source="{Binding Fotouser}"
+             Aspect="AspectFill"/>
+     </Frame>
+     <StackLayout VerticalOptions="Center">
+      <Label Text="{Binding Nombreuser}"
+             FontAttributes="Bold"
+             FontSize="18"/>
+      <Label Text="Nuevo usuario"
+             FontSize="15" />
+     </StackLayout>
+     <Image Source="https://i.ibb.co/THMjX5S/proximo.png"
+            HeightRequest="25"
+            HorizontalOptions="EndAndExpand" />
+    </StackLayout>
+    <BoxView BackgroundColor="Gray"
+             HeightRequest="2"
+             Opacity="0.5"/>
+    <StackLayout Orientation="Horizontal"
+                 HeightRequest="80"
+                 Padding="15,0,0,0">
+     <Image Source="https://i.ibb.co/ZhCLFJR/asd.png"
+            HeightRequest="28" />
+     <Label Text="Mi cuenta"
+            VerticalOptions="Center"
+            FontAttributes="Bold"
+            FontSize="18" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal"
+                 HeightRequest="80"
+                 Padding="15,0,0,0">
+     <Image Source="https://i.ibb.co/ZhCLFJR/asd.png"
+            HeightRequest="28" />
+     <Label Text="Mis viajes"
+            VerticalOptions="Center"
+            FontAttributes="Bold"
+            FontSize="18" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal"
+                 HeightRequest="80"
+                 Padding="15,0,0,0">
+     <Image Source="https://i.ibb.co/ZhCLFJR/asd.png"
+            HeightRequest="28" />
+     <Label Text="Configuraciones"
+            VerticalOptions="Center"
+            FontAttributes="Bold"
+            FontSize="18" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal"
+                 HeightRequest="80"
+                 Padding="15,0,0,0">
+     <Image Source="https://i.ibb.co/ZhCLFJR/asd.png"
+            HeightRequest="28" />
+     <Label Text="Ayuda"
+            VerticalOptions="Center"
+            FontAttributes="Bold"
+            FontSize="18" />
+    </StackLayout>
+    <StackLayout VerticalOptions="EndAndExpand"
+                 Margin="0,0,0,20">
+     <BoxView BackgroundColor="Gray"
+              HeightRequest="2"
+              Opacity="0.5" />
+     <Button Text="Modo conductor"
+             TextTransform="None"
+             CornerRadius="30"
+             BackgroundColor="#7250FF"
+             TextColor="White"
+             FontAttributes="Bold"
+             FontSize="18"
+             Margin="15"
+             HeightRequest="60" />
+    </StackLayout>
+   </StackLayout>
+   <BoxView BackgroundColor="Transparent"
+            Grid.Column="1">
+    <BoxView.GestureRecognizers>
+     <TapGestureRecognizer Command="{Binding OcultarConfigcommand}"/>
+    </BoxView.GestureRecognizers>
+    
+   </BoxView>
+  </Grid>
+ </Grid>
+</ContentView>

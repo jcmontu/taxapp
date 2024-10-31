@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Registro.Empezar"
+             NavigationPage.HasNavigationBar="False">
+ <Grid BackgroundColor="#276EF1">
+  <Image Source="https://i.ibb.co/PjjtZ6z/gigi-on-purple.jpg"
+         Aspect="AspectFill" />
+  <BoxView>
+   <BoxView.Background>
+    <LinearGradientBrush StartPoint="1,0">
+     <GradientStop Color="Transparent"
+                   Offset="0.2" />
+     <GradientStop Color="#705AFE"
+                   Offset="0.8" />
+     <GradientStop Color="#705AFE"
+                   Offset="1.0" />
+    </LinearGradientBrush>
+   </BoxView.Background>
+  </BoxView>
+  <Grid VerticalOptions="Center"
+        HorizontalOptions="Center">
+   <Ellipse Fill="#6B517A"
+            WidthRequest="140"
+            HeightRequest="140"
+            HorizontalOptions="Center"
+            Opacity="0.5"
+            VerticalOptions="Center" />
+   <Ellipse Fill="#7250FF"
+            WidthRequest="250"
+            HeightRequest="250"
+            HorizontalOptions="Center"
+            Opacity="0.6" />
+   
+  </Grid>
+  <Label Text="TAXAPP"
+         HorizontalOptions="Center"
+         FontAttributes="Bold"
+         FontSize="60"
+         VerticalOptions="Center"
+         TextColor="White" />
+  
+  <StackLayout VerticalOptions="EndAndExpand">
+   <Label Text="!Viaja con seguridad!"
+          HorizontalOptions="Center"
+          FontAttributes="Bold"
+          FontSize="30"
+          VerticalOptions="Center"
+          TextColor="White"
+          HorizontalTextAlignment="Center" />
+   <Grid VerticalOptions="EndAndExpand"
+         Margin="20">
+    <Button Text="Empezar"
+            BackgroundColor="#4C35AA"
+            TextColor="White"
+            TextTransform="None"
+            FontAttributes="Bold"
+            CornerRadius="18"
+            Command="{Binding IrcrearcuentaCommand}"
+            FontSize="35" />
+    <Image Source="https://i.ibb.co/wzXJYGs/flechas-a-la-derecha.png"
+           HeightRequest="30"
+           HorizontalOptions="End"
+           Margin="0,0,18,0" />
+   </Grid>
+  </StackLayout>
+ </Grid>
+</ContentPage>

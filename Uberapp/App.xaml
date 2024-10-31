@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.App">
+ <Application.Resources>
+  <Style x:Key="entryRegistro"
+         TargetType="Entry">
+   <Setter Property="BackgroundColor"
+           Value="White" />
+   <Setter Property="PlaceholderColor"
+           Value="SlateGray" />
+   <Setter Property="TextColor"
+           Value="Black" />
+   <Setter Property="FontSize"
+           Value="18" />
+   <Setter Property="FontAttributes"
+           Value="Bold" />
+  </Style>
+  <Style x:Key="btnguardar"
+         TargetType="Button">
+   <Setter Property="BackgroundColor"
+           Value="#7250FF" />
+   <Setter Property="FontSize"
+           Value="25" />
+   <Setter Property="CornerRadius"
+           Value="15" />
+   <Setter Property="HeightRequest"
+           Value="60" />
+   <Setter Property="TextTransform"
+           Value="None" />
+   <Setter Property="Text"
+           Value="Guardar" />
+   <Setter Property="FontAttributes"
+           Value="Bold" />
+  </Style>
+ 
+ </Application.Resources>
+</Application>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:map="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="Uberapp.Vistas.Navegacion.Navegar.Navegar"
+             xmlns:vistas="clr-namespace:Uberapp.Vistas.Navegacion.Navegar">
+ <Grid RowDefinitions="auto,*,auto"
+       BackgroundColor="White">
+  <StackLayout BackgroundColor="White">
+   <Button Text="Cancelar"
+           TextTransform="None"
+           HorizontalOptions="End"
+           Margin="20,30,20,0"
+           CornerRadius="15"
+           FontAttributes="Bold"
+           TextColor="#3A2657"
+           FontSize="20"
+           BackgroundColor="#EFEBFF"
+           Command="{Binding EliminarPedidocommand}" />
+  </StackLayout>
+  <!--<Frame Grid.Row="1"
+         CornerRadius="20"
+         HasShadow="False"
+         Padding="0"
+         Margin="20,0">
+   <map:Map />
+  </Frame>-->
+  <Grid Grid.Row="1"
+        VerticalOptions="Center"
+        Margin="30,10">
+   <BoxView BackgroundColor="#705AFE"
+            CornerRadius="20"
+            Opacity="0.65" />
+   <Label LineBreakMode="WordWrap"
+          Margin="10">
+    <Label.FormattedText>
+     <FormattedString>
+      <Span Text="{Binding NombreApellidoCond}"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="19" />
+      <Span Text=" aceptó su solicitud por "
+            FontAttributes="Italic"
+            TextColor="Black"
+            FontSize="18" />
+      <Span Text="{Binding SimboloMoneda}"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="19" />
+      <Span Text="{Binding Txttarifa}"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="19" />
+      <Span Text=" llegará en aprox "
+            FontAttributes="Italic"
+            TextColor="Black"
+            FontSize="18" />
+      <Span Text="{Binding TiempoAlorigen}"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="19" />
+     </FormattedString>
+    </Label.FormattedText>
+   </Label>
+  </Grid>
+  <Frame Grid.Row="2">
+   <StackLayout>
+    <Label Text="{Binding Marca}"
+           HorizontalOptions="Center"
+           TextColor="Black"
+           FontAttributes="Bold"
+           FontSize="22" />
+    <Frame HorizontalOptions="Center"
+           BorderColor="Gray"
+           CornerRadius="10"
+           HasShadow="False"
+           Padding="15,10"
+           Margin="10">
+     <Label Text="{Binding Nroplaca}"
+            FontAttributes="Bold"
+            FontSize="25" />
+    </Frame>
+    <Frame CornerRadius="10"
+           BackgroundColor="#EFEBFF"
+           HasShadow="False">
+     <StackLayout Orientation="Horizontal">
+      <Frame Padding="0"
+             HasShadow="False"
+             HeightRequest="60"
+             WidthRequest="60"
+             CornerRadius="30"
+             VerticalOptions="Center"
+             HorizontalOptions="Center">
+       <Image Source="{Binding Fotoperilcond}" Aspect="AspectFill" />
+      </Frame>
+      <StackLayout VerticalOptions="Center">
+       <Label Text="{Binding NombreApellidoCond}"
+              TextColor="Black"
+              FontSize="20" FontAttributes="Bold"/>
+       <StackLayout Orientation="Horizontal">
+        <Image Source="https://i.ibb.co/SNdV8yW/favorito-1.png"
+               HeightRequest="20" />
+        <Label Text="4,9"
+               VerticalOptions="Center" />
+       </StackLayout>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal"
+                   HeightRequest="30"
+                   HorizontalOptions="EndAndExpand"
+                   Margin="0,0,10,0"
+                   Spacing="15">
+       <Image Source="https://i.ibb.co/wdN1XWm/whatsapp.png"
+              HeightRequest="35">
+        <Image.GestureRecognizers>
+         <TapGestureRecognizer Command="{Binding EnviarWhatsappcommand}" />
+        </Image.GestureRecognizers>
+       </Image>
+       <Image Source="https://i.ibb.co/Q9hvBq4/llamada-telefonica.png"
+              HeightRequest="35">
+        <Image.GestureRecognizers>
+         <TapGestureRecognizer Command="{Binding Llamarcommand}" />
+        </Image.GestureRecognizers>
+       </Image>
+                            <!--  <Label Text="{Binding Celularpasajero}"
+           VerticalOptions="Center"
+           HorizontalOptions="Start"
+           FontSize="Medium" />-->
+          
+                        </StackLayout>
+     </StackLayout>
+    </Frame>
+   </StackLayout>
+  </Frame>
+  <vistas:Hallegado Grid.RowSpan="3"
+                    IsVisible="{Binding VisibleHallegado}"/>
+ </Grid>
+</ContentView>

@@ -1,0 +1,90 @@
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.deps.json
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.dll
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.pdb
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.csproj.AssemblyReference.cache
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Menuprincipal\Vmenuprincipal.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Adondevamos.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\EsperarOfertasView.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Listchoferes.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Ofertar.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\CompletarReg.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Crearcuenta.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Digitarcodigo.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Empezar.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\Listadirecciones.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\Listapaises.xaml.g.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.AssemblyInfoInputs.cache
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.AssemblyInfo.cs
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.csproj.CoreCompileInputs.cache
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.dll
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\refint\Uberapp.dll
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.pdb
+E:\Proyectos Xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\ref\Uberapp.dll
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.deps.json
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.dll
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.pdb
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.csproj.AssemblyReference.cache
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Menuprincipal\Vmenuprincipal.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Adondevamos.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Editarprecio.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\EsperarOfertasView.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Listchoferes.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar\Calificar.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar\Hallegado.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar\Navegar.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Ofertar.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Solicitarauto.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\CompletarReg.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Crearcuenta.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Digitarcodigo.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Empezar.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\Listadirecciones.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\Listapaises.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.AssemblyInfoInputs.cache
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.AssemblyInfo.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.csproj.CoreCompileInputs.cache
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.dll
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\refint\Uberapp.dll
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.pdb
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\ref\Uberapp.dll
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\ConfigView.xaml.g.cs
+D:\Proyectos xamarin\Desafios\Hijos\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Configuraciones\Perfiluser.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.deps.json
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.dll
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\bin\Debug\netstandard2.0\Uberapp.pdb
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.csproj.AssemblyReference.cache
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Configuraciones\Perfiluser.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Menuprincipal\Vmenuprincipal.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Adondevamos.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Editarprecio.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\EsperarOfertasView.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Listchoferes.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar\Calificar.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar\Hallegado.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Navegar\Navegar.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Ofertar.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Navegacion\Solicitarauto.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\CompletarReg.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Crearcuenta.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Digitarcodigo.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Registro\Empezar.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\ConfigView.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\Listadirecciones.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Vistas\Reutilizables\Listapaises.xaml.g.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.AssemblyInfoInputs.cache
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.AssemblyInfo.cs
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.csproj.CoreCompileInputs.cache
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.dll
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\refint\Uberapp.dll
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\Uberapp.pdb
+C:\Users\JCmontufar\Downloads\proyectograduacion\Uberapp\Uberapp\obj\Debug\netstandard2.0\ref\Uberapp.dll

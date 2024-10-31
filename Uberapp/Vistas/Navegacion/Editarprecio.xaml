@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Navegacion.Editarprecio"
+             xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows">
+ <Grid VerticalOptions="End">
+  
+  <BoxView CornerRadius="20,20,0,0"
+           BackgroundColor="White" />
+  <StackLayout Margin="20">
+   <Button Text="X"
+           FontAttributes="Bold"
+           FontSize="30"
+           HorizontalOptions="End"
+           BackgroundColor="White"
+           CornerRadius="15"
+           Command="{Binding Ocultareditarpreciocommand}"/>
+   <StackLayout>
+    <Label Text="Precio actual"
+           FontSize="18"
+           HorizontalOptions="Center" />
+    <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="CenterAndExpand">
+     <Label Text="{Binding SimboloMoneda}"
+            TextColor="Gray"
+            FontSize="30"
+            VerticalTextAlignment="Center"
+            FontAttributes="Bold" />
+     <Label Text="{Binding Txttarifa}"
+            TextColor="Gray"
+            FontSize="30"
+            VerticalTextAlignment="Center"
+            FontAttributes="Bold" />
+    </StackLayout>
+    <Label Text="Precio nuevo"
+           FontSize="25"
+           HorizontalOptions="Center"
+           FontAttributes="Bold" />
+    <Entry 
+           HorizontalOptions="FillAndExpand"
+           TextColor="Black"
+           FontSize="50"
+           FontAttributes="Bold"
+           VerticalTextAlignment="Center"
+           HorizontalTextAlignment="Center"
+           Text="{Binding TxttarifaEditar}"/>
+    
+   </StackLayout>
+   <sombras:Shadows CornerRadius="20"
+                    Shades="{sombras:SingleShade Offset='0,5' ,Opacity=0.6,Color=#AC52ED,BlurRadius=20}">
+    <Button Text="Aumentar precio"
+            TextTransform="None"
+            CornerRadius="20"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="30"
+            Margin="0,20,0,0"
+            Command="{Binding Aumentarpreciocommand}">
+     <Button.Background>
+      <LinearGradientBrush>
+       <GradientStop Color="#6247C9"
+                     Offset="0.5" />
+       <GradientStop Color="#AC52ED"
+                     Offset="1.0" />
+      </LinearGradientBrush>
+     </Button.Background>
+    </Button>
+   </sombras:Shadows>
+  </StackLayout>
+ </Grid>
+</ContentView>

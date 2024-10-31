@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Registro.Crearcuenta"
+             NavigationPage.HasNavigationBar="False">
+ <Grid BackgroundColor="White">
+    <StackLayout
+        Padding="30"
+        Spacing="30"
+     VerticalOptions="Center">
+        <Label Text="Crearemos tu cuenta"
+          FontSize="40"
+          TextColor="Black"
+               FontAttributes="Bold"/>
+        <Label Text="Si continuas es posible que recibas un SMS para verificar la cuenta. Se pueden aplicar los precios de mensajes y datos." />
+        <Frame
+            HasShadow="False"
+               BackgroundColor="#EEEEEE"
+            CornerRadius="10"
+            Padding="15">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="https://i.ibb.co/VtScjWv/google.png"
+                       HeightRequest="35"/>
+                <Label Text="Continuar con Google"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       FontSize="25"/>
+            </StackLayout>
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Gmailcommand}"/>
+            </Frame.GestureRecognizers>
+        </Frame>
+    </StackLayout>
+ </Grid>
+  
+</ContentPage>

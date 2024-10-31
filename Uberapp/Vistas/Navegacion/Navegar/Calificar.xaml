@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uberapp.Vistas.Navegacion.Navegar.Calificar"
+             xmlns:estrellas="clr-namespace:Messier16.Forms.Controls;assembly=Messier16.Forms.Controls">
+ <Grid BackgroundColor="White">
+  <StackLayout Margin=" 0,30,0,0">
+   <Label Text="Califique su viaje"
+          FontAttributes="Bold"
+          FontSize="25"
+          HorizontalOptions="Center"
+          TextColor="Black" />
+   <Frame HeightRequest="120"
+          WidthRequest="120"
+          CornerRadius="60"
+          HorizontalOptions="Center"
+          Padding="0">
+    <Image Aspect="AspectFill"
+     Source="https://cdn.ipadizate.com/2021/06/wallpaper-macOS-12-moterey-claro.jpg"/>
+   </Frame>
+   <Label Text="Julian"
+          TextColor="Black"
+          HorizontalOptions="Center"
+          FontSize="18" />
+   <Label Text="Llamar"
+          TextColor="Green"
+          HorizontalOptions="Center"
+          FontSize="18"
+          Margin="0,0,0,50" />
+   <estrellas:RatingBar FillColor="#FFC107"
+                        HorizontalOptions="Center"
+                        MaxRating="5"
+                        HeightRequest="40"
+                        WidthRequest="350"
+                        Rating="{Binding Rating,Mode=TwoWay}"/>
+   <StackLayout VerticalOptions="EndAndExpand"
+                Margin="20">
+    <StackLayout Orientation="Horizontal">
+     <Image Source="https://i.ibb.co/myw8SZ6/comentario.png"
+            HeightRequest="33" />
+     <Entry Placeholder="¿Cómo fue?"
+            HorizontalOptions="FillAndExpand"
+            FontSize="20"
+            Text="{Binding TxtcomentarCalif}"
+            />
+    </StackLayout>
+    <Button Text="Enviar"
+            HorizontalOptions="Center"
+            CornerRadius="15"
+            TextTransform="None"
+            FontSize="30"
+            FontAttributes="Bold"
+            BackgroundColor="#7361B4"
+            TextColor="White"
+            WidthRequest="150"
+            Command="{Binding Calificarcommand}"/>
+    
+   </StackLayout>
+  </StackLayout>
+ </Grid>
+</ContentView>
